@@ -37,6 +37,6 @@ while True:
 	if cv2.waitKey(1)==13: 		# 13 is the Enter key
 		break
 
-
+cap.release()
 cv2.destroyAllWindows()
 
